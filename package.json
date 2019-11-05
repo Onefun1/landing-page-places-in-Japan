@@ -1,0 +1,42 @@
+{
+  "name": "landing-page-places-in-japan",
+  "homepage": "https://onefun1.github.io/landing-page-places-in-Japan/",
+  "version": "1.0.0",
+  "description": "MMA",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Maksymenko Maksym",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Onefun1/landing-page-places-in-japan.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gh-pages": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^8.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash.template": ">=4.5.0"
+  },
+  "dependencies": {}
+}

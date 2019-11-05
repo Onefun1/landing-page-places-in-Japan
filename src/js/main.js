@@ -1,0 +1,2 @@
+"use strict";!function(){var e=document.querySelector(".header");window.onscroll=function(){50<window.pageYOffset?e.classList.add("header-active"):e.classList.remove("header-active")}}(),function(){var e=document.querySelector(".burger"),c=document.querySelector(".header__nav"),t=document.querySelector(".header__nav-close");e.addEventListener("click",function(){c.classList.add("header__nav-active")}),t.addEventListener("click",function(){c.classList.remove("header__nav-active")})}();
+//# sourceMappingURL=main.js.map
