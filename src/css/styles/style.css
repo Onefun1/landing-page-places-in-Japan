@@ -108,16 +108,40 @@ img {
   height: 28px;
   position: relative;
   display: none;
+  cursor: pointer;
+  transition: all 0.5s linear;
 }
 
 .burger__line {
   display: block;
   width: 100%;
-  height: 4px;
+  height: 3px;
   border-radius: 2px;
   background-color: #fff;
   position: absolute;
-  left: 0;
+  background-color: #fff;
+  transition: all 0.4s linear;
+}
+
+.header__burger:hover .burger__line {
+  background-color: rgb(176, 197, 235);
+}
+
+.header__burger:hover .burger__line-first {
+  transform: rotate(41deg);
+}
+
+.header__burger:hover .burger__line-second {
+  transform: translateX(-15px);
+  top: 46%;
+}
+
+.header__burger:hover .burger__line-third {
+  transform: rotate(-41deg);
+}
+
+.header__nav-close:hover {
+  transform: rotate(90deg);
 }
 
 .burger__line-first {
@@ -390,9 +414,15 @@ img {
   margin-bottom: 139px;
 }
 
+.tour__pic img {
+  width: 100%;
+}
+
 .tour__pic:hover {
-  transition: ease all 1s;
+  transition: ease all 0.4s;
   transform: scale(1.05);
+  box-shadow: 0 5px 10px black;
+  top: -2px;
 }
 
 .tours__tour {
@@ -457,6 +487,12 @@ img {
 .top__card-pic {
   position: relative;
   margin-bottom: 45px;
+}
+
+.top__card-pic:hover {
+  top: -2px;
+  box-shadow: 0 5px 10px black;
+  transition: 0.4s ease;
 }
 
 .top__card {
@@ -700,7 +736,7 @@ img {
   }
   .header__nav-active {
     transform: translateX(0);
-    transition: 0.2s all linear;
+    transition: 0.3s all linear;
   }
 
   .header__item {
